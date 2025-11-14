@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(tree:*)",
+      "Bash(chmod:*)",
+      "Bash(./generate-pages.sh)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
