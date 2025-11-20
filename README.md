@@ -61,7 +61,7 @@ new-malecphoto/
 └── README.md                              # This file
 ```
 
-**Total:** 15 complete HTML pages
+**Total:** 14 complete HTML pages (blog removed)
 
 ---
 
@@ -81,8 +81,8 @@ new-malecphoto/
 
 ### Design Features:
 - 🎨 **Exciting gradient buttons** - Orange to coral with glow on hover
-- 🎨 **Featured pricing cards** - Orange borders and peach backgrounds
-- 🎨 **Green checkmarks** - Professional feature lists
+- 🎨 **Simple pricing sections** - Clear "starting from" prices on all service pages
+- 🎨 **No complex pricing packages** - Individual project quotes only
 - 🎨 **Orange accent links** - Clear interactive elements
 - 🎨 **Colorful footer** - Rainbow gradient accent bar
 
@@ -114,7 +114,7 @@ See `IMAGE-OPTIMIZATION-REPORT.md` for details.
 
 ## 🎯 Pages
 
-### Main Pages (5):
+### Main Pages (4):
 1. **Homepage** (`/index.html`)
 2. **Portfolio** (`/portfolio/`)
 3. **Pricing** (`/cennik-fotografia-kulinarna/`)
@@ -122,18 +122,15 @@ See `IMAGE-OPTIMIZATION-REPORT.md` for details.
 5. **Contact** (`/kontakt/`)
 
 ### Service Pages (9):
-1. **Fotografia kulinarna** (`/uslugi/fotografia-kulinarna/`)
-2. **Fotografia kulinarna Łódź** (`/uslugi/fotografia-kulinarna-lodz/`)
-3. **Fotografia kulinarna Warszawa** (`/uslugi/fotografia-kulinarna-warszawa/`)
-4. **Fotografia produktowa żywności** (`/uslugi/fotografia-produktowa-zywnosci/`)
-5. **Dla restauracji i kawiarni** (`/uslugi/dla-restauracji-i-kawiarni/`)
-6. **Dla marek i agencji** (`/uslugi/dla-marek-i-agencji/`)
-7. **Szkolenia** (`/uslugi/szkolenia-fotografia-kulinarna/`)
-8. **Opracowanie przepisów** (`/uslugi/opracowanie-przepisow/`)
-9. **Stylizacja żywności** (`/uslugi/stylizacja-zywnosci/`)
-
-### Supporting Pages (1):
-1. **Blog** (`/blog/`)
+1. **Fotografia kulinarna** (`/uslugi/fotografia-kulinarna/`) - od 1500 zł
+2. **Fotografia kulinarna Łódź** (`/uslugi/fotografia-kulinarna-lodz/`) - od 1500 zł
+3. **Fotografia kulinarna Warszawa** (`/uslugi/fotografia-kulinarna-warszawa/`) - od 1500 zł
+4. **Fotografia produktowa żywności** (`/uslugi/fotografia-produktowa-zywnosci/`) - od 800 zł
+5. **Dla restauracji i kawiarni** (`/uslugi/dla-restauracji-i-kawiarni/`) - od 1200 zł
+6. **Dla marek i agencji** (`/uslugi/dla-marek-i-agencji/`) - od 3000 zł
+7. **Szkolenia** (`/uslugi/szkolenia-fotografia-kulinarna/`) - od 800 zł/osoba
+8. **Opracowanie przepisów** (`/uslugi/opracowanie-przepisow/`) - od 500 zł/przepis
+9. **Stylizacja żywności** (`/uslugi/stylizacja-zywnosci/`) - od 1200 zł/dzień
 
 ---
 

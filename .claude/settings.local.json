@@ -4,7 +4,10 @@
       "Bash(mkdir:*)",
       "Bash(tree:*)",
       "Bash(chmod:*)",
-      "Bash(./generate-pages.sh)"
+      "Bash(./generate-pages.sh)",
+      "Bash(find:*)",
+      "Bash(bash:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
