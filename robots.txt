@@ -1,4 +1,6 @@
+# Prevent all search engine crawling (temporary - for development)
 User-agent: *
-Allow: /
+Disallow: /
 
-Sitemap: https://www.kasiamalecphoto.pl/sitemap.xml
+# Remove sitemap reference until site is ready for production
+# Sitemap: https://www.kasiamalecphoto.pl/sitemap.xml

@@ -7,7 +7,8 @@
       "Bash(./generate-pages.sh)",
       "Bash(find:*)",
       "Bash(bash:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
