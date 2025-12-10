@@ -61,11 +61,6 @@
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>https://www.kasiamalecphoto.pl/blog/</loc>
-        <priority>0.7</priority>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
         <loc>https://www.kasiamalecphoto.pl/o-mnie/</loc>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
