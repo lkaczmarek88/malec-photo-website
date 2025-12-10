@@ -11,16 +11,16 @@
 }
 
 :root {
-    /* Exciting Premium Color Palette - Food Photography Inspired */
+    /* Professional Color Palette - Food Photography Inspired */
     --color-primary: #1A1A1A;              /* Deep Charcoal (sophisticated anchor) */
     --color-primary-light: #2D2D2D;        /* Lighter charcoal */
-    --color-accent: #E85D2A;               /* Burnt Orange (exciting, food-related) */
-    --color-accent-dark: #C74D1F;          /* Deeper burnt orange */
-    --color-accent-light: #FF7B4D;         /* Bright burnt orange */
+    --color-accent: #2C6E49;               /* Deep Green (natural, fresh, professional) */
+    --color-accent-dark: #1F5235;          /* Darker green */
+    --color-accent-light: #3A8A5C;         /* Lighter green */
     --color-secondary: #2C5F4F;            /* Deep Forest Green (fresh, natural) */
     --color-secondary-light: #3A7A64;      /* Lighter forest green */
-    --color-tertiary: #F4A261;             /* Warm Peach (appetizing, soft) */
-    --color-highlight: #E76F51;            /* Coral (vibrant accent) */
+    --color-tertiary: #8BAA8F;             /* Soft sage (natural, calming) */
+    --color-highlight: #3A8A5C;            /* Medium green (accent) */
 
     /* Backgrounds - Clean with Warmth */
     --color-bg-white: #FFFFFF;
@@ -62,8 +62,8 @@
     --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
     --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.15);
-    --shadow-orange: 0 8px 24px rgba(232, 93, 42, 0.25);
-    --shadow-green: 0 8px 24px rgba(44, 95, 79, 0.2);
+    --shadow-green: 0 8px 24px rgba(44, 110, 73, 0.25);
+    --shadow-green-light: 0 8px 24px rgba(44, 95, 79, 0.2);
 
     /* Transitions - Snappy */
     --transition-fast: 0.2s ease-out;
@@ -339,7 +339,7 @@ a:hover {
     padding: 0.875rem 2rem;
     border-radius: var(--radius-pill);
     font-weight: 700;
-    box-shadow: var(--shadow-orange);
+    box-shadow: var(--shadow-green);
     margin-left: 1rem;
     letter-spacing: 0.02em;
 }
@@ -347,8 +347,12 @@ a:hover {
 .nav-cta:hover {
     background: linear-gradient(135deg, var(--color-accent-dark) 0%, var(--color-accent) 100%);
     transform: translateY(-2px);
-    box-shadow: 0 12px 32px rgba(232, 93, 42, 0.35);
+    box-shadow: 0 12px 32px rgba(44, 110, 73, 0.35);
     color: white !important;
+}
+
+.nav-cta::before {
+    display: none;
 }
 
 /* Mobile Menu Toggle */
@@ -465,14 +469,14 @@ a:hover {
 .btn-primary {
     background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-highlight) 100%);
     color: white;
-    box-shadow: var(--shadow-orange);
+    box-shadow: var(--shadow-green);
     border-color: transparent;
 }
 
 .btn-primary:hover {
     background: linear-gradient(135deg, var(--color-accent-dark) 0%, var(--color-accent) 100%);
     transform: translateY(-4px) scale(1.02);
-    box-shadow: 0 16px 40px rgba(232, 93, 42, 0.4);
+    box-shadow: 0 16px 40px rgba(44, 110, 73, 0.4);
 }
 
 .btn-outline {
@@ -620,7 +624,7 @@ a:hover {
     margin: 0 auto var(--spacing-md);
     font-size: 2.25rem;
     color: white;
-    box-shadow: var(--shadow-orange);
+    box-shadow: var(--shadow-green);
 }
 
 .feature-box h3 {
@@ -666,7 +670,7 @@ a:hover {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(232, 93, 42, 0.85) 0%, rgba(44, 95, 79, 0.75) 100%);
+    background: linear-gradient(135deg, rgba(44, 110, 73, 0.85) 0%, rgba(44, 95, 79, 0.75) 100%);
     opacity: 0;
     transition: opacity var(--transition-normal);
     z-index: 1;
@@ -813,7 +817,7 @@ a:hover {
     font-size: 0.875rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    box-shadow: var(--shadow-orange);
+    box-shadow: var(--shadow-green);
 }
 
 /* === TIMELINE === */
@@ -856,7 +860,7 @@ a:hover {
     font-size: 1.625rem;
     font-weight: 700;
     font-family: var(--font-heading);
-    box-shadow: var(--shadow-orange);
+    box-shadow: var(--shadow-green);
     position: relative;
     z-index: 1;
 }
@@ -958,7 +962,7 @@ a:hover {
     border-color: var(--color-accent);
     border-width: 4px;
     background: linear-gradient(180deg, white 0%, var(--color-bg-peach) 100%);
-    box-shadow: var(--shadow-orange);
+    box-shadow: var(--shadow-green);
     transform: scale(1.05);
 }
 
@@ -979,7 +983,7 @@ a:hover {
     font-size: 0.875rem;
     font-weight: 600;
     white-space: nowrap;
-    box-shadow: 0 4px 12px rgba(232, 93, 42, 0.3);
+    box-shadow: 0 4px 12px rgba(44, 110, 73, 0.3);
 }
 
 /* Pricing header (cennik page style) */
@@ -1138,7 +1142,7 @@ a:hover {
 .form-textarea:focus {
     outline: none;
     border-color: var(--color-accent);
-    box-shadow: 0 0 0 4px rgba(232, 93, 42, 0.1);
+    box-shadow: 0 0 0 4px rgba(44, 110, 73, 0.1);
     transform: translateY(-1px);
 }
 
@@ -1342,7 +1346,7 @@ a:hover {
     border-color: var(--color-accent);
     color: white;
     transform: translateY(-2px);
-    box-shadow: var(--shadow-orange);
+    box-shadow: var(--shadow-green);
 }
 
 /* === FOOTER === */
@@ -1418,13 +1422,13 @@ a:hover {
     font-weight: 700;
     transition: all var(--transition-normal);
     font-size: 1rem;
-    box-shadow: var(--shadow-orange);
+    box-shadow: var(--shadow-green);
 }
 
 .social-link:hover {
     background: linear-gradient(135deg, var(--color-highlight) 0%, var(--color-accent) 100%);
     transform: translateY(-5px);
-    box-shadow: 0 12px 32px rgba(232, 93, 42, 0.4);
+    box-shadow: 0 12px 32px rgba(44, 110, 73, 0.4);
 }
 
 .footer-bottom {
@@ -1473,7 +1477,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     font-size: 1.625rem;
-    box-shadow: var(--shadow-orange);
+    box-shadow: var(--shadow-green);
     transition: all var(--transition-normal);
     z-index: 999;
 }
@@ -1485,7 +1489,7 @@ a:hover {
 .back-to-top:hover {
     background: linear-gradient(135deg, var(--color-highlight) 0%, var(--color-accent) 100%);
     transform: translateY(-5px);
-    box-shadow: 0 16px 40px rgba(232, 93, 42, 0.4);
+    box-shadow: 0 16px 40px rgba(44, 110, 73, 0.4);
 }
 
 /* === SKIP TO CONTENT === */
