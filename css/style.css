@@ -11,32 +11,32 @@
 }
 
 :root {
-    /* Professional Color Palette - Food Photography Inspired */
+    /* Professional Color Palette - Rose & Berry */
     --color-primary: #1A1A1A;              /* Deep Charcoal (sophisticated anchor) */
     --color-primary-light: #2D2D2D;        /* Lighter charcoal */
-    --color-accent: #2C6E49;               /* Deep Green (natural, fresh, professional) */
-    --color-accent-dark: #1F5235;          /* Darker green */
-    --color-accent-light: #3A8A5C;         /* Lighter green */
-    --color-secondary: #2C5F4F;            /* Deep Forest Green (fresh, natural) */
-    --color-secondary-light: #3A7A64;      /* Lighter forest green */
-    --color-tertiary: #8BAA8F;             /* Soft sage (natural, calming) */
-    --color-highlight: #3A8A5C;            /* Medium green (accent) */
+    --color-accent: #9B1B4A;               /* Deep Berry (rich, elegant, high contrast) */
+    --color-accent-dark: #7A1539;          /* Darker berry (hover states) */
+    --color-accent-light: #C27A93;         /* Dusty rose (softer accent) */
+    --color-secondary: #B5506E;            /* Rose (warm, professional) */
+    --color-secondary-light: #D48A9B;      /* Lighter rose */
+    --color-tertiary: #DFA4C7;             /* Soft mauve (decorative) */
+    --color-highlight: #B5506E;            /* Rose highlight */
 
-    /* Backgrounds - Clean with Warmth */
+    /* Backgrounds - Clean with Rose Warmth */
     --color-bg-white: #FFFFFF;
-    --color-bg-cream: #FFFCF7;             /* Very soft warm white */
-    --color-bg-light: #FFF8F0;             /* Light warm cream */
-    --color-bg-peach: #FFF5ED;             /* Soft peach background */
+    --color-bg-cream: #FDF5F8;             /* Very soft rose white */
+    --color-bg-light: #F9E8EE;             /* Light rose tint */
+    --color-bg-peach: #FDF0F4;             /* Soft blush background */
     --color-bg-dark: #1A1A1A;              /* Deep charcoal */
-    --color-bg-green: #F0F5F3;             /* Very light green tint */
+    --color-bg-green: #FBF2F5;             /* Very light pink tint */
 
-    /* Text Colors - Strong Contrast */
+    /* Text Colors - Strong Contrast (unchanged for readability) */
     --color-text-dark: #1A1A1A;            /* Deep charcoal */
     --color-text-medium: #3A3A3A;          /* Medium gray */
     --color-text-gray: #666666;            /* Gray */
     --color-text-light: #999999;           /* Light gray */
-    --color-border: #E8E8E8;               /* Neutral border */
-    --color-border-warm: #F0E6DC;          /* Warm border */
+    --color-border: #E8E8E8;              /* Neutral border */
+    --color-border-warm: #F0D4DC;          /* Warm rose border */
 
     /* Typography - Bold & Distinctive */
     --font-heading: 'Playfair Display', Georgia, serif;
@@ -62,8 +62,8 @@
     --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
     --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.15);
-    --shadow-green: 0 8px 24px rgba(44, 110, 73, 0.25);
-    --shadow-green-light: 0 8px 24px rgba(44, 95, 79, 0.2);
+    --shadow-green: 0 8px 24px rgba(155, 27, 74, 0.2);
+    --shadow-green-light: 0 8px 24px rgba(181, 80, 110, 0.15);
 
     /* Transitions - Snappy */
     --transition-fast: 0.2s ease-out;
@@ -358,7 +358,7 @@ a:hover {
 .nav-cta:hover {
     background: linear-gradient(135deg, var(--color-accent-dark) 0%, var(--color-accent) 100%);
     transform: translateY(-2px);
-    box-shadow: 0 12px 32px rgba(44, 110, 73, 0.35);
+    box-shadow: 0 12px 32px rgba(155, 27, 74, 0.3);
     color: white !important;
 }
 
@@ -413,7 +413,7 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(26, 26, 26, 0.75) 0%, rgba(44, 95, 79, 0.65) 100%);
+    background: linear-gradient(135deg, rgba(26, 26, 26, 0.75) 0%, rgba(122, 21, 57, 0.55) 100%);
 }
 
 .hero::after {
@@ -487,7 +487,7 @@ a:hover {
 .btn-primary:hover {
     background: linear-gradient(135deg, var(--color-accent-dark) 0%, var(--color-accent) 100%);
     transform: translateY(-4px) scale(1.02);
-    box-shadow: 0 16px 40px rgba(44, 110, 73, 0.4);
+    box-shadow: 0 16px 40px rgba(155, 27, 74, 0.3);
 }
 
 .btn-outline {
@@ -512,7 +512,7 @@ a:hover {
 .btn-secondary:hover {
     background: linear-gradient(135deg, var(--color-secondary-light) 0%, var(--color-secondary) 100%);
     transform: translateY(-4px) scale(1.02);
-    box-shadow: 0 16px 40px rgba(44, 95, 79, 0.35);
+    box-shadow: 0 16px 40px rgba(181, 80, 110, 0.25);
 }
 
 /* === CARDS === */
@@ -681,7 +681,7 @@ a:hover {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(44, 110, 73, 0.85) 0%, rgba(44, 95, 79, 0.75) 100%);
+    background: linear-gradient(135deg, rgba(155, 27, 74, 0.8) 0%, rgba(181, 80, 110, 0.7) 100%);
     opacity: 0;
     transition: opacity var(--transition-normal);
     z-index: 1;
@@ -994,7 +994,7 @@ a:hover {
     font-size: 0.875rem;
     font-weight: 600;
     white-space: nowrap;
-    box-shadow: 0 4px 12px rgba(44, 110, 73, 0.3);
+    box-shadow: 0 4px 12px rgba(155, 27, 74, 0.25);
 }
 
 /* Pricing header (cennik page style) */
@@ -1153,7 +1153,7 @@ a:hover {
 .form-textarea:focus {
     outline: none;
     border-color: var(--color-accent);
-    box-shadow: 0 0 0 4px rgba(44, 110, 73, 0.1);
+    box-shadow: 0 0 0 4px rgba(155, 27, 74, 0.1);
     transform: translateY(-1px);
 }
 
@@ -1439,7 +1439,7 @@ a:hover {
 .social-link:hover {
     background: linear-gradient(135deg, var(--color-highlight) 0%, var(--color-accent) 100%);
     transform: translateY(-5px);
-    box-shadow: 0 12px 32px rgba(44, 110, 73, 0.4);
+    box-shadow: 0 12px 32px rgba(155, 27, 74, 0.3);
 }
 
 .footer-bottom {
@@ -1500,7 +1500,7 @@ a:hover {
 .back-to-top:hover {
     background: linear-gradient(135deg, var(--color-highlight) 0%, var(--color-accent) 100%);
     transform: translateY(-5px);
-    box-shadow: 0 16px 40px rgba(44, 110, 73, 0.4);
+    box-shadow: 0 16px 40px rgba(155, 27, 74, 0.3);
 }
 
 /* === SKIP TO CONTENT === */
