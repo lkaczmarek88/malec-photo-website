@@ -30,7 +30,10 @@ function initMobileMenu() {
         menuToggle.addEventListener('click', function() {
             menuToggle.classList.toggle('active');
             navMenu.classList.toggle('active');
-            document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+            var isOpen = navMenu.classList.contains('active');
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+            menuToggle.setAttribute('aria-expanded', isOpen);
+            menuToggle.setAttribute('aria-label', isOpen ? 'Zamknij menu' : 'Otwórz menu');
         });
 
         // Close menu when clicking on a link
@@ -40,6 +43,8 @@ function initMobileMenu() {
                 menuToggle.classList.remove('active');
                 navMenu.classList.remove('active');
                 document.body.style.overflow = '';
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuToggle.setAttribute('aria-label', 'Otwórz menu');
             });
         });
     }
@@ -49,19 +54,17 @@ function initMobileMenu() {
 // DROPDOWN MENU ON MOBILE
 // ===================================
 function initDropdownMobile() {
-    const dropdowns = document.querySelectorAll('.nav-dropdown');
-
-    if (window.innerWidth <= 768) {
-        dropdowns.forEach(dropdown => {
-            const toggle = dropdown.querySelector('.nav-dropdown-toggle');
-            if (toggle) {
-                toggle.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    dropdown.classList.toggle('active');
-                });
-            }
-        });
-    }
+    document.addEventListener('click', function(e) {
+        if (window.innerWidth > 768) return;
+        var toggle = e.target.closest('.nav-dropdown-toggle');
+        if (toggle) {
+            e.preventDefault();
+            var dropdown = toggle.closest('.nav-dropdown');
+            dropdown.classList.toggle('active');
+            var isOpen = dropdown.classList.contains('active');
+            toggle.setAttribute('aria-expanded', isOpen);
+        }
+    });
 }
 
 // ===================================

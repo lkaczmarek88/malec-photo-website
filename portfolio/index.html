@@ -13,7 +13,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/malec-photo-website/css/style.css">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:url" content="https://www.kasiamalecphoto.pl/portfolio/">
+    <meta property="og:title" content="Portfolio fotografii kulinarnej i produktowej | Kasia Malec Photography">
+    <meta property="og:description" content="Zobacz moje portfolio fotografii kulinarnej i produktowej żywności. Realizacje dla restauracji, marek spożywczych, agencji i wydawnictw.">
+    <meta property="og:image" content="https://www.kasiamalecphoto.pl/images/hero/fotografia-kulinarna-zupa-pomidorowa.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Strona glowna", "item": "https://www.kasiamalecphoto.pl/"},
+            {"@type": "ListItem", "position": 2, "name": "Portfolio"}
+        ]
+    }
+    </script>
 </head>
 <body>
     <a href="#main-content" class="skip-to-content">Przejdź do treści</a>
@@ -23,8 +41,8 @@
             <a href="/malec-photo-website/" class="logo">Kasia Malec Photography</a>
             <ul class="nav-menu">
                 <li class="nav-dropdown">
-                    <a href="#" class="nav-link nav-dropdown-toggle">Usługi</a>
-                    <ul class="nav-dropdown-menu">
+                    <a href="/malec-photo-website/uslugi/" class="nav-link nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">Usługi</a>
+                    <ul class="nav-dropdown-menu" role="menu">
                         <li><a href="/malec-photo-website/uslugi/fotografia-kulinarna/">Fotografia kulinarna</a></li>
                         <li><a href="/malec-photo-website/uslugi/fotografia-kulinarna-lodz/">Fotografia kulinarna Łódź</a></li>
                         <li><a href="/malec-photo-website/uslugi/fotografia-kulinarna-warszawa/">Fotografia kulinarna Warszawa</a></li>
@@ -41,11 +59,11 @@
                 <li><a href="/malec-photo-website/o-mnie/" class="nav-link">O mnie</a></li>
                 <li><a href="/malec-photo-website/kontakt/" class="nav-link nav-cta">Kontakt</a></li>
             </ul>
-            <div class="menu-toggle">
+            <button class="menu-toggle" aria-label="Otwórz menu" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </button>
         </nav>
     </header>
 
@@ -73,7 +91,7 @@
 
                 <div class="gallery">
                     <div class="gallery-item" data-category="kulinarna">
-                        <img src="/malec-photo-website/images/hero/fotografia-kulinarna-zupa-pomidorowa.jpg" alt="Apetyczna zupa pomidorowa w misce z bazylią - profesjonalna fotografia kulinarna">
+                        <img src="/malec-photo-website/images/hero/fotografia-kulinarna-zupa-pomidorowa.jpg" alt="Apetyczna zupa pomidorowa w misce z bazylią - profesjonalna fotografia kulinarna" width="800" height="600" loading="lazy">
                         <div class="gallery-item-overlay">
                             <h3>Fotografia kulinarna</h3>
                             <p>Zupa pomidorowa z bazylią</p>
@@ -81,7 +99,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="kulinarna">
-                        <img src="/malec-photo-website/images/hero/salatka-gruszka-orzechy.jpg" alt="Sałatka z gruszką, orzechami włoskimi i serem pleśniowym - zdjęcie jedzenia">
+                        <img src="/malec-photo-website/images/hero/salatka-gruszka-orzechy.jpg" alt="Sałatka z gruszką, orzechami włoskimi i serem pleśniowym - zdjęcie jedzenia" width="800" height="600" loading="lazy">
                         <div class="gallery-item-overlay">
                             <h3>Menu restauracji</h3>
                             <p>Sałatka z gruszką i orzechami</p>
@@ -89,7 +107,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="produktowa">
-                        <img src="/malec-photo-website/images/hero/stylizacja-przyprawy-zywnosc.jpg" alt="Stylizacja żywności - przyprawy i składniki kulinarne">
+                        <img src="/malec-photo-website/images/hero/stylizacja-przyprawy-zywnosc.jpg" alt="Stylizacja żywności - przyprawy i składniki kulinarne" width="800" height="600" loading="lazy">
                         <div class="gallery-item-overlay">
                             <h3>Stylizacja żywności</h3>
                             <p>Kompozycja przypraw i składników</p>
@@ -97,7 +115,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="kulinarna">
-                        <img src="/malec-photo-website/images/portfolio/sniadanie-owsianka-borowki.jpg" alt="Śniadanie - owsianka z borówkami, miodem i orzechami">
+                        <img src="/malec-photo-website/images/portfolio/sniadanie-owsianka-borowki.jpg" alt="Śniadanie - owsianka z borówkami, miodem i orzechami" width="800" height="600" loading="lazy">
                         <div class="gallery-item-overlay">
                             <h3>Zdjęcia śniadaniowe</h3>
                             <p>Owsianka z borówkami</p>
@@ -105,7 +123,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="kulinarna">
-                        <img src="/malec-photo-website/images/portfolio/salatka-tofu-zdrowe-jedzenie.jpg" alt="Zdrowa sałatka z tofu, warzywami i sosem sezamowym">
+                        <img src="/malec-photo-website/images/portfolio/salatka-tofu-zdrowe-jedzenie.jpg" alt="Zdrowa sałatka z tofu, warzywami i sosem sezamowym" width="800" height="600" loading="lazy">
                         <div class="gallery-item-overlay">
                             <h3>Zdrowe odżywianie</h3>
                             <p>Sałatka z tofu</p>
@@ -113,7 +131,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="produktowa">
-                        <img src="/malec-photo-website/images/portfolio/fotografia-produktowa-melon.jpg" alt="Fotografia produktowa żywności - świeży melon">
+                        <img src="/malec-photo-website/images/portfolio/fotografia-produktowa-melon.jpg" alt="Fotografia produktowa żywności - świeży melon" width="800" height="600" loading="lazy">
                         <div class="gallery-item-overlay">
                             <h3>Fotografia produktowa</h3>
                             <p>Świeży melon</p>
@@ -121,7 +139,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="restauracje">
-                        <img src="/malec-photo-website/images/portfolio/kawa-mrożona-lifestyle.jpg" alt="Mrożona kawa lifestyle - zdjęcie napoju dla kawiarni">
+                        <img src="/malec-photo-website/images/portfolio/kawa-mrożona-lifestyle.jpg" alt="Mrożona kawa lifestyle - zdjęcie napoju dla kawiarni" width="800" height="600" loading="lazy">
                         <div class="gallery-item-overlay">
                             <h3>Menu kawiarni</h3>
                             <p>Mrożona kawa</p>
@@ -129,7 +147,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="restauracje">
-                        <img src="/malec-photo-website/images/portfolio/ciasteczka-czekoladowe-kawa.jpg" alt="Ciasteczka czekoladowe z kawą - zdjęcie dla kawiarni">
+                        <img src="/malec-photo-website/images/portfolio/ciasteczka-czekoladowe-kawa.jpg" alt="Ciasteczka czekoladowe z kawą - zdjęcie dla kawiarni" width="800" height="600" loading="lazy">
                         <div class="gallery-item-overlay">
                             <h3>Ciasteczka i kawa</h3>
                             <p>Sesja dla kawiarni</p>
@@ -137,7 +155,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="kulinarna">
-                        <img src="/malec-photo-website/images/portfolio/deser-maliny-crumble.jpg" alt="Deser z malinami i crumble - fotografia deserowa">
+                        <img src="/malec-photo-website/images/portfolio/deser-maliny-crumble.jpg" alt="Deser z malinami i crumble - fotografia deserowa" width="800" height="600" loading="lazy">
                         <div class="gallery-item-overlay">
                             <h3>Fotografia deserowa</h3>
                             <p>Deser malinowy crumble</p>
@@ -145,7 +163,7 @@
                     </div>
 
                     <div class="gallery-item" data-category="kulinarna">
-                        <img src="/malec-photo-website/images/portfolio/pudding-chia-truskawki.jpg" alt="Pudding chia z truskawkami - zdrowy deser">
+                        <img src="/malec-photo-website/images/portfolio/pudding-chia-truskawki.jpg" alt="Pudding chia z truskawkami - zdrowy deser" width="800" height="600" loading="lazy">
                         <div class="gallery-item-overlay">
                             <h3>Zdrowe desery</h3>
                             <p>Pudding chia z truskawkami</p>
@@ -171,8 +189,8 @@
                     <h3>O firmie</h3>
                     <p>Profesjonalna fotografia kulinarna i produktowa dla restauracji, marek spożywczych i agencji.</p>
                     <div class="social-links">
-                        <a href="https://www.instagram.com/kasia_malec_photography/" class="social-link" aria-label="Instagram">IG</a>
-                        <a href="https://www.facebook.com/kasiamalecphotography/" class="social-link" aria-label="Facebook">FB</a>
+                        <a href="https://www.instagram.com/kasia_malec_photography/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+                        <a href="https://www.facebook.com/kasiamalecphotography/" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">FB</a>
                     </div>
                 </div>
                 <div class="footer-section">
@@ -199,11 +217,12 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Kasia Malec Photography. Wszelkie prawa zastrzeżone.</p>
+                <p>&copy; <span id="year"></span> Kasia Malec Photography. Wszelkie prawa zastrzeżone.</p>
             </div>
         </div>
     </footer>
 
     <script src="/malec-photo-website/js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -2,5 +2,5 @@
 User-agent: *
 Disallow: /
 
-# Remove sitemap reference until site is ready for production
+# Uncomment when site is ready for production with final domain
 # Sitemap: https://www.kasiamalecphoto.pl/sitemap.xml
