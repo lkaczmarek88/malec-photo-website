@@ -486,6 +486,7 @@ a:hover {
 
 .btn-primary:hover {
     background: linear-gradient(135deg, var(--color-accent-dark) 0%, var(--color-accent) 100%);
+    color: white;
     transform: translateY(-4px) scale(1.02);
     box-shadow: 0 16px 40px rgba(155, 27, 74, 0.3);
 }
@@ -511,6 +512,7 @@ a:hover {
 
 .btn-secondary:hover {
     background: linear-gradient(135deg, var(--color-secondary-light) 0%, var(--color-secondary) 100%);
+    color: white;
     transform: translateY(-4px) scale(1.02);
     box-shadow: 0 16px 40px rgba(181, 80, 110, 0.25);
 }
@@ -1036,12 +1038,14 @@ a:hover {
 
 .price-amount {
     display: block;
-    font-size: 3.5rem;
+    font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 700;
     color: var(--color-accent);
     font-family: var(--font-heading);
-    line-height: 1;
+    line-height: 1.15;
     margin-bottom: 0.5rem;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .price-period {
