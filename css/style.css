@@ -302,9 +302,20 @@ a:hover {
     visibility: hidden;
     transform: translateY(10px);
     transition: all var(--transition-normal);
-    margin-top: 1rem;
+    margin-top: 0;
+    padding-top: 1.25rem;
     list-style: none;
     border: 2px solid var(--color-bg-light);
+}
+
+/* Bridge the gap between nav link and dropdown to prevent hover loss */
+.nav-dropdown::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1.25rem;
 }
 
 .nav-dropdown:hover .nav-dropdown-menu {
@@ -1648,6 +1659,10 @@ a:hover {
     .cards {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+
+    .cards[style*="grid-template-columns: repeat(2"] {
+        grid-template-columns: 1fr !important;
     }
 
     .features {
