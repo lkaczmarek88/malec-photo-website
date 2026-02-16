@@ -1,33 +1,33 @@
 # Kasia Malec Photography
 
-> Professional food photography studio based in Łódź, Poland. Specializing in culinary photography, food product photography, and visual content for restaurants, brands, and agencies. Serving clients across Poland with focus on Łódź and Warsaw.
+> Profesjonalne studio fotografii kulinarnej z Łodzi. Specjalizacja: fotografia kulinarna, produktowa żywności, content wizualny dla restauracji, marek spożywczych i agencji reklamowych. Obsługa klientów w całej Polsce ze szczególnym uwzględnieniem Łodzi i Warszawy.
 
-Kasia Malec Photography (malecphoto.com) offers professional food and culinary photography services. The studio works with restaurants, cafés, food brands, advertising agencies, and catering companies. Services include food photography sessions, food product photography, food styling, recipe development with photography, and food photography workshops/training.
+Kasia Malec Photography (malecphoto.com) oferuje profesjonalne usługi fotografii kulinarnej i produktowej. Studio współpracuje z restauracjami, kawiarniami, markami spożywczymi, agencjami reklamowymi i firmami cateringowymi. Zakres usług obejmuje sesje zdjęciowe dań i produktów spożywczych, stylizację żywności, opracowanie przepisów z fotografią oraz szkolenia z fotografii kulinarnej.
 
-- Location: Łódź, Poland (also serving Warsaw and all of Poland)
-- Contact: kasiamalecphoto@gmail.com | +48 609 228 085
-- Languages: Polish (primary), English
+- Lokalizacja: Łódź, Polska (obsługa również Warszawa i cała Polska)
+- Kontakt: kasiamalecphoto@gmail.com | +48 609 228 085
+- Język: polski
 
-## Services
+## Usługi
 
-- [Food Photography](https://www.malecphoto.com/uslugi/fotografia-kulinarna/): Core culinary photography service — menu shots, editorial food photos, cookbook photography
-- [Food Photography Łódź](https://www.malecphoto.com/uslugi/fotografia-kulinarna-lodz/): Food photography sessions in Łódź and central Poland region
-- [Food Photography Warsaw](https://www.malecphoto.com/uslugi/fotografia-kulinarna-warszawa/): Food photography sessions in Warsaw and Masovia region
-- [Food Product Photography](https://www.malecphoto.com/uslugi/fotografia-produktowa-zywnosci/): Packshot and product photography for food brands, e-commerce, packaging
-- [Restaurant & Café Photography](https://www.malecphoto.com/uslugi/dla-restauracji-i-kawiarni/): Menu photography, delivery app photos (Pyszne.pl, Wolt, Glovo, Uber Eats), social media content, interior shots
-- [Brand & Agency Photography](https://www.malecphoto.com/uslugi/dla-marek-i-agencji/): Commercial food photography for advertising campaigns, brand content, social media
-- [Food Photography Workshops](https://www.malecphoto.com/uslugi/szkolenia-fotografia-kulinarna/): Training and workshops on food photography and styling techniques
-- [Recipe Development](https://www.malecphoto.com/uslugi/opracowanie-przepisow/): Recipe creation, testing, and photography for cookbooks, blogs, brands
-- [Food Styling](https://www.malecphoto.com/uslugi/stylizacja-zywnosci/): Professional food styling for photo and video shoots
+- [Fotografia kulinarna](https://www.malecphoto.com/uslugi/fotografia-kulinarna/): Główna usługa — zdjęcia dań do menu, editorial, książki kucharskie, blogi
+- [Fotografia kulinarna Łódź](https://www.malecphoto.com/uslugi/fotografia-kulinarna-lodz/): Sesje zdjęciowe w Łodzi i regionie centralnej Polski
+- [Fotografia kulinarna Warszawa](https://www.malecphoto.com/uslugi/fotografia-kulinarna-warszawa/): Sesje zdjęciowe w Warszawie i na Mazowszu
+- [Fotografia produktowa żywności](https://www.malecphoto.com/uslugi/fotografia-produktowa-zywnosci/): Packshoty, zdjęcia produktów spożywczych na e-commerce, opakowania, katalogi
+- [Dla restauracji i kawiarni](https://www.malecphoto.com/uslugi/dla-restauracji-i-kawiarni/): Zdjęcia menu, aplikacje dostawcze (Pyszne.pl, Wolt, Glovo, Uber Eats), social media, wnętrza lokali
+- [Dla marek i agencji](https://www.malecphoto.com/uslugi/dla-marek-i-agencji/): Komercyjna fotografia kulinarna na kampanie reklamowe, content brandowy, social media
+- [Szkolenia z fotografii kulinarnej](https://www.malecphoto.com/uslugi/szkolenia-fotografia-kulinarna/): Warsztaty i szkolenia z fotografii i stylizacji jedzenia
+- [Opracowanie przepisów](https://www.malecphoto.com/uslugi/opracowanie-przepisow/): Tworzenie, testowanie i fotografowanie przepisów dla książek, blogów, marek
+- [Stylizacja żywności](https://www.malecphoto.com/uslugi/stylizacja-zywnosci/): Profesjonalna stylizacja jedzenia na sesje foto i wideo
 
-## Key Pages
+## Kluczowe strony
 
-- [Homepage](https://www.malecphoto.com/): Overview of services, portfolio highlights, client testimonials
-- [Portfolio](https://www.malecphoto.com/portfolio/): Gallery of food photography work across categories
-- [Pricing](https://www.malecphoto.com/cennik-fotografia-kulinarna/): Photography packages and pricing (Starter from 1500 PLN, Standard from 2500 PLN, Premium — custom quote)
-- [About](https://www.malecphoto.com/o-mnie/): Background, philosophy, and approach to food photography
-- [Contact](https://www.malecphoto.com/kontakt/): Contact form, email, phone, location details
+- [Strona główna](https://www.malecphoto.com/): Przegląd usług, wybrane realizacje, referencje klientów
+- [Portfolio](https://www.malecphoto.com/portfolio/): Galeria prac z podziałem na kategorie
+- [Cennik](https://www.malecphoto.com/cennik-fotografia-kulinarna/): Pakiety i ceny (Starter od 1500 zł, Standard od 2500 zł, Premium — wycena indywidualna)
+- [O mnie](https://www.malecphoto.com/o-mnie/): Kim jest Kasia Malec, filozofia pracy, podejście do fotografii
+- [Kontakt](https://www.malecphoto.com/kontakt/): Formularz kontaktowy, e-mail, telefon, dane firmy
 
 ## Optional
 
-- [All Services Overview](https://www.malecphoto.com/uslugi/): Hub page listing all available photography services
+- [Przegląd usług](https://www.malecphoto.com/uslugi/): Strona hubowa z listą wszystkich dostępnych usług fotograficznych
