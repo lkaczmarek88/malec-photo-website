@@ -388,7 +388,7 @@ a:hover {
 }
 
 .menu-toggle.active span:nth-child(1) {
-    transform: rotate(45deg) translate(8px, 8px);
+    transform: rotate(45deg) translate(6px, 6px);
 }
 
 .menu-toggle.active span:nth-child(2) {
@@ -396,7 +396,7 @@ a:hover {
 }
 
 .menu-toggle.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(7px, -7px);
+    transform: rotate(-45deg) translate(6px, -6px);
 }
 
 /* === HERO SECTION === */
@@ -1650,18 +1650,50 @@ a:hover {
         transform: none;
         box-shadow: none;
         margin-top: 0;
-        padding: 0.5rem 0 1rem 1.25rem;
-        display: none;
+        padding: 0 0 0.5rem 1.25rem;
+        display: block;
         border: none;
+        min-width: unset;
     }
 
-    .nav-dropdown.active .nav-dropdown-menu {
-        display: block;
+    .nav-dropdown-toggle::after {
+        display: none;
+    }
+
+    .nav-dropdown-toggle {
+        font-weight: 700;
+        color: var(--color-text-light);
+        font-size: 0.8125rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        padding-bottom: 0.25rem;
+        pointer-events: none;
+    }
+
+    .nav-dropdown-menu a {
+        padding: 0.625rem 1rem;
+        font-size: 1rem;
+        border-left: none;
+    }
+
+    .nav-dropdown-menu a:hover {
+        border-left: none;
+        background: transparent;
+        color: var(--color-accent);
+    }
+
+    .nav-dropdown-menu li {
+        border-bottom: none;
     }
 
     .nav-cta {
         margin-left: 0;
         margin-top: 1rem;
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding: 1.125rem 2rem;
+        border-radius: var(--radius-pill);
     }
 
     .menu-toggle {

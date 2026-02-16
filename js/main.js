@@ -54,15 +54,13 @@ function initMobileMenu() {
 // DROPDOWN MENU ON MOBILE
 // ===================================
 function initDropdownMobile() {
+    // On mobile, dropdown is always open (CSS handles display:block)
+    // Just prevent the toggle link from navigating
     document.addEventListener('click', function(e) {
         if (window.innerWidth > 768) return;
         var toggle = e.target.closest('.nav-dropdown-toggle');
         if (toggle) {
             e.preventDefault();
-            var dropdown = toggle.closest('.nav-dropdown');
-            dropdown.classList.toggle('active');
-            var isOpen = dropdown.classList.contains('active');
-            toggle.setAttribute('aria-expanded', isOpen);
         }
     });
 }
