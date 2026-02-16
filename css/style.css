@@ -369,17 +369,20 @@ a:hover {
 /* Mobile Menu Toggle */
 .menu-toggle {
     display: none;
-    flex-direction: column;
     cursor: pointer;
-    gap: 5px;
     background: none;
     border: none;
     padding: 0;
     -webkit-appearance: none;
     appearance: none;
+    width: 28px;
+    height: 20px;
+    position: relative;
 }
 
 .menu-toggle span {
+    position: absolute;
+    left: 0;
     width: 28px;
     height: 3px;
     background: var(--color-text-dark);
@@ -387,8 +390,13 @@ a:hover {
     border-radius: 2px;
 }
 
+.menu-toggle span:nth-child(1) { top: 0; }
+.menu-toggle span:nth-child(2) { top: 8px; }
+.menu-toggle span:nth-child(3) { top: 16px; }
+
 .menu-toggle.active span:nth-child(1) {
-    transform: rotate(45deg) translate(6px, 6px);
+    top: 8px;
+    transform: rotate(45deg);
 }
 
 .menu-toggle.active span:nth-child(2) {
@@ -396,7 +404,8 @@ a:hover {
 }
 
 .menu-toggle.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(6px, -6px);
+    top: 8px;
+    transform: rotate(-45deg);
 }
 
 /* === HERO SECTION === */
@@ -1619,12 +1628,14 @@ a:hover {
         left: -100%;
         width: 100%;
         height: calc(100vh - 75px);
+        height: calc(100dvh - 75px);
         background: white;
         flex-direction: column;
         align-items: flex-start;
-        padding: 2rem;
+        padding: 2rem 2rem 6rem;
         transition: left var(--transition-normal);
         overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
         gap: 0;
         box-shadow: var(--shadow-xl);
     }
