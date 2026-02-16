@@ -970,6 +970,26 @@ a:hover {
     box-shadow: var(--shadow-green);
 }
 
+/* === TWO COLUMN LAYOUT === */
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+@media (max-width: 768px) {
+    .two-column {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* === CHECK LIST OPTIONAL (grey markers) === */
+.check-list-optional li::before {
+    background: var(--color-text-light);
+    box-shadow: none;
+}
+
 /* === PRICING CARDS === */
 .pricing-cards {
     display: grid;
