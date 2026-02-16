@@ -1,6 +1,4 @@
-# Prevent all search engine crawling (temporary - for development)
 User-agent: *
-Disallow: /
+Allow: /
 
-# Uncomment when site is ready for production with final domain
-# Sitemap: https://www.kasiamalecphoto.pl/sitemap.xml
+Sitemap: https://www.malecphoto.com/sitemap.xml
