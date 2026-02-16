@@ -165,7 +165,9 @@ function initLightbox() {
         item.addEventListener('click', function() {
             const img = this.querySelector('img');
             if (img) {
-                lightboxImg.src = img.src;
+                // Prefer WebP source from <picture> element
+                const source = this.querySelector('picture source[type="image/webp"]');
+                lightboxImg.src = source ? source.srcset : img.src;
                 lightboxImg.alt = img.alt;
                 lightbox.classList.add('active');
                 document.body.style.overflow = 'hidden';
@@ -388,28 +390,6 @@ function showFormError(form) {
     setTimeout(() => {
         message.remove();
     }, 5000);
-}
-
-// ===================================
-// LAZY LOADING IMAGES
-// ===================================
-if ('IntersectionObserver' in window) {
-    const imageObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const img = entry.target;
-                if (img.dataset.src) {
-                    img.src = img.dataset.src;
-                    img.removeAttribute('data-src');
-                }
-                observer.unobserve(img);
-            }
-        });
-    });
-
-    document.querySelectorAll('img[data-src]').forEach(img => {
-        imageObserver.observe(img);
-    });
 }
 
 // ===================================
