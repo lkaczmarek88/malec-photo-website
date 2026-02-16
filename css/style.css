@@ -1762,6 +1762,23 @@ a:hover {
         gap: 1rem;
     }
 
+    .gallery-item:hover {
+        transform: none;
+        border-color: transparent;
+    }
+
+    .gallery-item::before {
+        display: none;
+    }
+
+    .gallery-overlay {
+        display: none;
+    }
+
+    .gallery-item:hover img {
+        transform: none;
+    }
+
     .testimonials,
     .pricing-cards,
     .blog-grid {
