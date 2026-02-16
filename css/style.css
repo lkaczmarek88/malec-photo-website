@@ -1860,13 +1860,17 @@ a:hover {
 
 .lightbox-content {
     position: relative;
-    max-width: calc(100vw - 4rem);
-    max-height: calc(100vh - 4rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .lightbox-content img {
-    max-width: 100%;
+    display: block;
+    max-width: calc(100vw - 4rem);
     max-height: calc(100vh - 4rem);
+    width: auto;
+    height: auto;
     object-fit: contain;
     border-radius: var(--radius-sm);
     box-shadow: var(--shadow-xl);
