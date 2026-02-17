@@ -10,7 +10,20 @@
     <meta name="keywords" content="portfolio fotografia kulinarna, portfolio food photography, zdjęcia jedzenia przykłady">
     <link rel="canonical" href="https://www.malecphoto.com/portfolio/">
 
-    <link rel="stylesheet" href="/fonts/fonts.css">
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="/fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/playfair-display-700.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Preload LCP hero image -->
+    <link rel="preload" href="/images/french-toast-owoce-deser-hero.webp" as="image" type="image/webp" fetchpriority="high">
+    <!-- Inline font-face -->
+    <style>
+    @font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/inter-400.woff2') format('woff2'),url('/fonts/inter-400.ttf') format('truetype')}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url('/fonts/inter-500.woff2') format('woff2'),url('/fonts/inter-500.ttf') format('truetype')}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/inter-600.woff2') format('woff2'),url('/fonts/inter-600.ttf') format('truetype')}
+    @font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/inter-700.woff2') format('woff2'),url('/fonts/inter-700.ttf') format('truetype')}
+    @font-face{font-family:'Playfair Display';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/playfair-display-600.woff2') format('woff2'),url('/fonts/playfair-display-600.ttf') format('truetype')}
+    @font-face{font-family:'Playfair Display';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/playfair-display-700.woff2') format('woff2'),url('/fonts/playfair-display-700.ttf') format('truetype')}
+    </style>
     <link rel="icon" type="image/png" href="/images/favicon.png">
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     <!-- Open Graph -->
@@ -275,7 +288,7 @@
         </div>
     </footer>
 
-    <script src="/js/main.js"></script>
+    <script src="/js/main.js" defer></script>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
