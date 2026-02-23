@@ -18,8 +18,6 @@
     <meta name="keywords" content="zdjęcia dla restauracji, fotografia menu, zdjęcia do Pyszne.pl, fotografia dla kawiarni">
     <link rel="canonical" href="https://www.malecphoto.com/uslugi/dla-restauracji-i-kawiarni/">
 
-    <!-- Preload LCP hero image -->
-    <link rel="preload" href="/images/pizza-rukola-parmezan-rece-hero.webp" as="image" type="image/webp" fetchpriority="high">
     <!-- Inline font-face -->
     <style>
     @font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/inter-400.woff2') format('woff2')}
@@ -42,6 +40,7 @@
     <meta property="og:image" content="https://www.malecphoto.com/images/pizza-rukola-parmezan-rece-hero.jpg">
     <meta name="twitter:card" content="summary_large_image">
 
+    <link rel="preload" href="/images/pizza-rukola-parmezan-rece-hero.webp" as="image" type="image/webp" fetchpriority="high">
     <link rel="stylesheet" href="/css/style.css">
 
     <script type="application/ld+json">
@@ -111,7 +110,7 @@
         <section class="hero" style="min-height: 60vh;">
             <picture>
                 <source srcset="/images/pizza-rukola-parmezan-rece-hero.webp" type="image/webp">
-                <img src="/images/pizza-rukola-parmezan-rece-hero.jpg" alt="Pizza z rukolą i parmezanem - zdjęcia dla restauracji" class="hero-bg" width="1920" height="1080" loading="lazy">
+                <img src="/images/pizza-rukola-parmezan-rece-hero.jpg" alt="Pizza z rukolą i parmezanem - zdjęcia dla restauracji" class="hero-bg" width="1920" height="1080" fetchpriority="high">
             </picture>
             <div class="hero-content">
                 <h1>Profesjonalne zdjęcia dla Twojej restauracji lub kawiarni</h1>
