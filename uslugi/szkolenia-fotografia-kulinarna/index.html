@@ -59,13 +59,35 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "EducationEvent",
+        "@type": "Course",
         "name": "Szkolenia z fotografii kulinarnej",
-        "description": "Warsztaty i szkolenia z fotografii kulinarnej dla restauracji, blogerów i pasjonatów",
-        "organizer": {
+        "description": "Warsztaty i szkolenia z fotografii kulinarnej – indywidualne i grupowe. Dla restauratorów, blogerów kulinarnych, social media managerów i pasjonatów fotografii jedzenia.",
+        "provider": {
             "@type": "Person",
-            "name": "Kasia Malec"
-        }
+            "name": "Kasia Malec",
+            "url": "https://www.malecphoto.com/o-mnie/"
+        },
+        "image": "https://www.malecphoto.com/images/pancakes-maliny-miod-stylizacja-hero.jpg",
+        "hasCourseInstance": [
+            {
+                "@type": "CourseInstance",
+                "courseMode": "Onsite",
+                "courseWorkload": "PT6H",
+                "instructor": {
+                    "@type": "Person",
+                    "name": "Kasia Malec"
+                },
+                "location": {
+                    "@type": "Place",
+                    "name": "Studio Kasia Malec Photography",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Łódź",
+                        "addressCountry": "PL"
+                    }
+                }
+            }
+        ]
     }
     </script>
 </head>
